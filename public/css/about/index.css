@@ -239,7 +239,7 @@
 }
 
 
-@media (min-width: 992px){
+@media (min-width: 992px) and (max-width: 1199px) {
     .timeline-item-left-1 {
         margin-left: 450px;
     }
@@ -291,6 +291,115 @@
     }
     
 }
+
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .timeline-item-left-1 {
+        margin-left: 380px;
+    }
+    
+    .timeline-item-left-2 {
+        margin-left: 300px;
+    }
+    
+    .timeline-item-left-3 {
+        margin-left: 343px;
+    }
+    
+    .timeline-item-left-4 {
+        margin-left: 305px;
+    }
+    
+    .timeline-item-left-5 {
+        margin-left: 307px;
+    }
+    
+    .timeline-item-left-6 {
+        margin-left: 450px;
+    }
+    
+    /* .timeline-item-left, */
+    .timeline-item-right {
+        flex-basis: 40%;
+    }
+    
+    .timeline-item-divider {
+        display: flex;
+        align-items: center;
+    }
+    
+    .timeline-item-divider span {
+        flex-grow: 1; 
+        background-color: #000;
+        padding: 8px;
+        border: 1px solid #000;
+        border-radius: 12px;
+        text-align: center;
+    }
+    
+    .timeline-item-divider::before {
+        content: "";
+        flex-grow: 1; 
+        height: 2px;
+        background-color: #000;
+    }
+    
+}
+
+
+@media (min-width: 1400px) {
+    .timeline-item-left-1 {
+        margin-left: 450px;
+    }
+    
+    .timeline-item-left-2 {
+        margin-left: 370px;
+    }
+    
+    .timeline-item-left-3 {
+        margin-left: 410px;
+    }
+    
+    .timeline-item-left-4 {
+        margin-left: 375px;
+    }
+    
+    .timeline-item-left-5 {
+        margin-left: 375px;
+    }
+    
+    .timeline-item-left-6 {
+        margin-left: 520px;
+    }
+    
+    /* .timeline-item-left, */
+    .timeline-item-right {
+        flex-basis: 40%;
+    }
+    
+    .timeline-item-divider {
+        display: flex;
+        align-items: center;
+    }
+    
+    .timeline-item-divider span {
+        flex-grow: 1; 
+        background-color: #000;
+        padding: 8px;
+        border: 1px solid #000;
+        border-radius: 12px;
+        text-align: center;
+    }
+    
+    .timeline-item-divider::before {
+        content: "";
+        flex-grow: 1; 
+        height: 2px;
+        background-color: #000;
+    }
+    
+}
+
 .subtitle-mission {
     text-align: justify;
 }
