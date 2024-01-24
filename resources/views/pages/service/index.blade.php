@@ -5,7 +5,7 @@
 @push('css')
     <link rel="stylesheet" href="{{ asset('css/service/index.css') }}">
     <style>
-        @media (min-width: 576px){
+        @media (min-width: 992px){
             .banner-projects{
                 background-image: url('{{ asset('images/logo_aldmic_color.png') }}');
             }

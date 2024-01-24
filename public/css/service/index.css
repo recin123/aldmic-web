@@ -1,4 +1,4 @@
-@media (max-width: 575px){
+                                                                              @media (max-width: 575px){
     .banner-service{
         background-size: contain;
         background-position: center 0px;
@@ -18,7 +18,7 @@
     }
 }
 
-@media (min-width: 576px){
+@media (min-width: 576px) and (max-width: 767px){
     
     .banner-service{
         background-size: auto;
@@ -40,3 +40,29 @@
         background-repeat: no-repeat;
     }
 }
+
+
+
+@media (min-width: 768px) {
+    
+    .banner-service{
+        background-size: auto;
+        background-position: center 0px;
+        background-repeat: no-repeat;
+    }
+
+    .banner-service-title{
+        font-size: 5rem;
+    }
+    
+    .banner-service-subtitle{
+        font-size: 3rem;
+    }
+
+    .banner-projects{
+        background-size: 50rem;
+        background-position: -45% 40%;
+        background-repeat: no-repeat;
+    }
+}
+

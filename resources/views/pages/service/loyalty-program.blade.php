@@ -68,7 +68,7 @@
     {{-- Banner Loyalty Program Benefits --}}
     <div class="container">
         <div class="row">
-            <h1 class=" mt-5 text-left fw-bold text-center banner-benefits-title">
+            <h1 class=" mt-5 mb-3 text-left fw-bold text-center banner-benefits-title">
                 Aldmic COOPN Loyalty Program Benefits
             </h1>
             
